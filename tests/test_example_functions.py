@@ -15,6 +15,6 @@ def test_add_x_y():
     x = 10.0
     y = -20.0
     assert np.isclose(ef.add_x_y(x, y), -10.0)
-    x = -0.25
+    x = -0.45
     y = 0.50
-    assert np.isclose(ef.add_x_y(x, y), 0.25)
+    assert np.isclose(ef.add_x_y(x, y), 0.05)
