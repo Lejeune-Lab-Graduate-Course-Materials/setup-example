@@ -327,4 +327,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> "hello world!
 ```
 
+#### Run the Tutorial
 
+This GitHub repository contains a folder called ``tutorials`` that has a trivial example of a tutorial. The code can be run by navigating to the ``tutorials`` folder and running ``tutorials.py``.

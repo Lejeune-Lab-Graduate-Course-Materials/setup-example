@@ -18,3 +18,8 @@ def test_add_x_y():
     x = -0.45
     y = 0.50
     assert np.isclose(ef.add_x_y(x, y), 0.05)
+
+
+def test_hello_world():
+    output = ef.hello_world()
+    assert output == "hello world!"
